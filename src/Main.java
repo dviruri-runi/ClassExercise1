@@ -14,6 +14,7 @@ public class Main {
         customerList.add(new StandardCustomer(8,"cust8"));
         customerList.add(new SilverCustomer(9,"cust9"));
         customerList.add(new StandardCustomer(10,"cust10"));
+        customerList.add(new StandardCustomer(11,"cust11"));
 
         for (ICustomer customer : customerList) {
             System.out.println("Name: " + customer.getCustomerName() + " 300:" + customer.getPriceForProduct(300) + " 3800:" + customer.getPriceForProduct(3800));
